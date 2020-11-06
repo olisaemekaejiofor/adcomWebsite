@@ -1976,4 +1976,10 @@ h1, h2, h3, h4, h5,
 .form-subscribe .btn:hover, .form-subscribe .btn:active, .form-subscribe .btn:focus {
   background-color: #4285f4 !important;
   border-color: #4285f4 !important;
-  color: #fff; }
+  color: #fff; 
+}
+@media screen and (max-width: 600px){
+  .icon-instagram,.icon-phone,.icon-envelope{
+    font-size: 40px !important;
+  }
+}
